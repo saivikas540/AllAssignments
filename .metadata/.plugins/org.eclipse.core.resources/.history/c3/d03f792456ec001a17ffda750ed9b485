@@ -1,0 +1,28 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration page</title>
+</head>
+<body>
+<center>
+    <h2>REGISTER</h2>
+</center>
+<center>
+<form:form   method="post" modelAttribute="regObj">
+      Name:<form:input path="Name"/></br>
+       Email:<form:input path="email"/></br>
+       DOB:<form:input path="DOB"/></br>
+       Gender:<form:input path="gender"/></br>
+          Mobile Number:<form:input path="mb"/></br>
+           Password:<form:input path="password"/></br>
+        <input type="submit" value="Submit">
+        
+        
+        </form:form>
+</center>
+
+</body>
+</html>

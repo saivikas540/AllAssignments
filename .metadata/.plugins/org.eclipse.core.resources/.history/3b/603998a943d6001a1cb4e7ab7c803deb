@@ -1,0 +1,31 @@
+package Luckynum;
+
+import java.util.Scanner;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class LuckyCar {
+private String carNo;
+
+public int getlastdigits() {
+	Scanner sc=new Scanner(System.in);
+	carNo=sc.nextLine();
+	Pattern a=Pattern.compile("\\d{2}\\D{2}\\d{2}\\D{4}");
+	 Matcher matcher = a.matcher(carNo);
+	sc.close();
+	String lastFourDigits;
+    lastFourDigits = carNo.substring(carNo.length() - 4);
+	int last=Integer.parseInt(lastFourDigits);
+	int sum = 0; 
+    while (last > 0 || sum > 9)  
+    { 
+        if (last == 0) { 
+            last= sum; 
+            sum = 0; 
+        } 
+        sum += last % 10; 
+        last /= 10; 
+    } 
+    return sum; 
+}
+}

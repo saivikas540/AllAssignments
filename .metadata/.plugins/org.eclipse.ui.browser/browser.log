@@ -1,0 +1,8 @@
+
+Aug 26, 2020 14:03:04.266 NEW SESSION
+Aug 26, 2020 14:03:04.275 [8152:4104:0826/140304.187:ERROR:webrtc_event_log_manager_remote.cc(411)] Session ID already set.
+Aug 26, 2020 14:03:05.646 [8152:4104:0826/140305.645:ERROR:webrtc_event_log_manager_remote.cc(411)] Session ID already set.
+
+Aug 28, 2020 16:07:05.96 NEW SESSION
+Aug 28, 2020 16:07:05.96 [2552:16892:0828/160705.093:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+Aug 28, 2020 16:10:05.446 [15528:11072:0828/161005.446:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.

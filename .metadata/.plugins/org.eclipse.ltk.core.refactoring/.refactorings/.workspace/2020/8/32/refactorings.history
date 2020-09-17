@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;exercise-bt-conditionalstatements-switchcase&apos;" deleteContents="false" description="Delete resource &apos;exercise-bt-conditionalstatements-switchcase&apos;" element1="/exercise-bt-conditionalstatements-switchcase" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1596346219381"/>
+</session>

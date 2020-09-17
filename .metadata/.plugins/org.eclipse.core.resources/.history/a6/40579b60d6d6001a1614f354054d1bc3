@@ -1,0 +1,53 @@
+package CarNo;
+import org.junit.jupiter.api.*;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.Assert.*;
+import org.junit.jupiter.api.*;
+
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.AfterClass;
+import org.junit.jupiter.api.Test;
+
+
+import Luckynum.Luckynumber;
+
+public class LuckyNumTest {
+private Luckynumber luckyNumber;
+
+@BeforeEach
+public void beforee() {
+	luckyNumber = new  Luckynumber();
+	System.out.println("in before each");
+}
+
+@AfterEach
+public void afterr() {
+	 luckyNumber = null;
+	 System.out.println("in after each");
+}
+@Test
+public void testk() {
+    assertEquals("test():Extraction failed. Check checkluckyNumber() method.", "Lucky Number",
+            luckyNumber.getlastdigits("KA05SS3456"));
+}
+@Test
+public void test() {
+    assertEquals("test():Extraction failed. Check checkluckyNumber() method.", "It's a Lucky Number",
+            car.checkluckyNumber("KA05SS3456"));
+    assertEquals("test(): Extraction failed. Check checkluckyNumber() method.", "It's a Lucky Number",
+            car.checkluckyNumber("DL03DL0987"));
+    assertEquals("test(): Extraction failed. Check checkluckyNumber() method.", "It's not Lucky Number",
+            car.checkluckyNumber("KL03DL0980"));
+    assertEquals("test(): Extraction failed. Check checkluckyNumber() method.", "It's not Lucky Number",
+            car.checkluckyNumber("DI03DL0080"));
+}
+
+
+
+
+}

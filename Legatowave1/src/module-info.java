@@ -1,0 +1,2 @@
+module Legatowave1 {
+}

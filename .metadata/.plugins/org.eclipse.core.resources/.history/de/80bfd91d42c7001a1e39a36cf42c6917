@@ -1,0 +1,41 @@
+package Legato;
+
+public class Bank1 {
+	public int accountNum;
+	private String name;
+	private double accountBalance;
+	private double balanceAfterdeposite;
+	private double balanceAfterWithdraw;
+	
+	public void setAccountNum(int an) {
+		this.accountNum=an;
+	}
+	public void setName(String a) {
+		this.name=a;
+	}
+	public void setBalance(double an) {
+		this.accountBalance=an;
+		
+	}
+	public int getAccountNum() {
+		return accountNum;
+	}
+	public String getName() {
+		return name;
+	}
+	public double getBalance() {
+		return accountBalance;
+	}
+	public void setDepositeAmt(double a) {
+		this.balanceAfterdeposite=accountBalance+a;
+	}
+	public void setWithdrawAmt(double a) {
+		this.balanceAfterWithdraw=accountBalance-a;
+	}
+	public double getDepositeAmt() {
+		return balanceAfterdeposite;
+	}
+	public double getWithdrawAmount() {
+		return balanceAfterWithdraw;
+	}
+}

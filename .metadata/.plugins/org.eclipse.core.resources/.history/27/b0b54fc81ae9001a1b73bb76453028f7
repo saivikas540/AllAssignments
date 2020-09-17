@@ -1,0 +1,30 @@
+package com.stackroute.controller;
+
+import java.util.Date;
+
+import javax.servlet.http.HttpSession;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+import com.stackroute.model.Login;
+import com.stackroute.model.*;
+
+@Controller
+public class RegistrationController {
+	@RequestMapping(value="/registrationprocess",method=RequestMethod.POST)
+	public String logincheck(@ModelAttribute("registration") registration regObj,HttpSession session) {
+		String email=regObj.getEmail();
+		String name=regObj.getName();
+		Date DOB=regObj.getDOB();
+		String gender=regObj.getGender();
+		String mb=regObj.getMb();
+		String password=regObj.getPassword();
+		
+		return "regdetails";
+	}
+	
+
+}

@@ -1,0 +1,44 @@
+package Luckynum;
+
+import java.util.Scanner;
+
+public class LuckyCar {
+private String carNo;
+
+public int getlastdigits() {
+	Scanner sc=new Scanner(System.in);
+	carNo=sc.nextLine();
+	sc.close();
+	String lastFourDigits;
+    lastFourDigits = carNo.substring(carNo.length() - 4);
+	int last=Integer.parseInt(lastFourDigits);
+	int sum = 0; 
+    while (last > 0 || sum > 9)  
+    { 
+        if (last == 0) { 
+            last= sum; 
+            sum = 0; 
+        } 
+        sum += last % 10; 
+        last /= 10; 
+    } 
+    return sum; 
+}
+public void luckyNum() {
+	if(getlastdigits()%3==0) {
+		System.out.println("Lucky Number");
+	}
+	else
+	{
+		System.out.println("Not Lucky Number");
+	}
+}
+
+
+	 public static void main(String[] args) {
+		 LuckyCar obj=new LuckyCar();
+		System.out.println("Last digits of car: "+obj.getlastdigits());
+		System.out.println("Checking Lucky or Not: ");
+		
+	 }
+}

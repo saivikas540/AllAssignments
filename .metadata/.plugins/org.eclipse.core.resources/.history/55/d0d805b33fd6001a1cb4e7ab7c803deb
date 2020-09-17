@@ -1,0 +1,20 @@
+package Luckynum;
+
+public class Luckynumber {
+
+	 public static void main(String[] args) {
+		 LuckyCar obj=new LuckyCar();
+		 int a=obj.getlastdigits();
+		 if(a%3==0) {
+			 System.out.println("lucky number");
+		 }
+		 else
+		 {
+			 System.out.println("not lucky number");
+		 }
+		System.out.println("Last digits of car: "+obj.getlastdigits());
+		System.out.println("Checking Lucky or Not: ");
+		
+	 }
+	
+}

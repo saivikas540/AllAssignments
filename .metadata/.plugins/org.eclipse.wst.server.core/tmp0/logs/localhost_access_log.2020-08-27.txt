@@ -1,0 +1,15 @@
+127.0.0.1 - - [27/Aug/2020:20:29:30 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [27/Aug/2020:20:29:36 +0530] "GET /Mvcapplication/ HTTP/1.1" 200 1669
+0:0:0:0:0:0:0:1 - - [27/Aug/2020:20:29:59 +0530] "GET /Mvcapplication/ HTTP/1.1" 200 1669
+0:0:0:0:0:0:0:1 - - [27/Aug/2020:20:30:11 +0530] "POST /Mvcapplication/logincheck HTTP/1.1" 200 202
+0:0:0:0:0:0:0:1 - - [27/Aug/2020:20:30:24 +0530] "GET /Mvcapplication/ HTTP/1.1" 200 1669
+0:0:0:0:0:0:0:1 - - [27/Aug/2020:20:30:27 +0530] "GET /Mvcapplication/registration HTTP/1.1" 200 1538
+127.0.0.1 - - [27/Aug/2020:20:35:49 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [27/Aug/2020:20:35:52 +0530] "GET /Mvcapplication/ HTTP/1.1" 200 1669
+0:0:0:0:0:0:0:1 - - [27/Aug/2020:20:36:02 +0530] "GET /Mvcapplication/registration HTTP/1.1" 200 1538
+127.0.0.1 - - [27/Aug/2020:20:41:00 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [27/Aug/2020:20:41:04 +0530] "GET /Mvcapplication/ HTTP/1.1" 200 1669
+0:0:0:0:0:0:0:1 - - [27/Aug/2020:20:41:09 +0530] "GET /Mvcapplication/registration HTTP/1.1" 200 1548
+0:0:0:0:0:0:0:1 - - [27/Aug/2020:20:41:45 +0530] "GET /Mvcapplication/regdetails HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [27/Aug/2020:20:42:00 +0530] "GET /Mvcapplication/regdetails HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [27/Aug/2020:20:42:32 +0530] "GET /Mvcapplication/regdetails HTTP/1.1" 404 682

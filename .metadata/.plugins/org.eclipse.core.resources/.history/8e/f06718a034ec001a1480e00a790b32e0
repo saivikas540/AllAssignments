@@ -1,0 +1,37 @@
+package com.stackroute.controller;
+
+import javax.servlet.http.HttpSession;
+
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.servlet.ModelAndView;
+
+import com.stackroute.model.*;
+import com.stackroute.service.LoginService;
+
+@Controller
+public class RegistrationController {
+	private LoginService regservice;
+	
+	@RequestMapping(value="/registration",method=RequestMethod.GET)
+	public ModelAndView getregistration() {
+		ModelAndView mv=new ModelAndView("registration","regObj", new registration());
+		return mv;
+		
+	}
+	
+
+	@RequestMapping(value="/registration",method=RequestMethod.POST)
+	public ModelAndView submitregistration(@ModelAttribute("regObj") registration regform) {
+		ModelAndView mv=new ModelAndView("registration","regObj", new registration());
+		return mv;
+		
+	}
+	
+
+}

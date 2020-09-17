@@ -1,0 +1,31 @@
+package Luckynum;
+
+import java.util.Scanner;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class Luckynumber {
+
+	 public static void main(String[] args) {
+		 LuckyCar obj=new LuckyCar();
+		 Scanner sc=new Scanner(System.in);
+			String carNo = sc.nextLine();
+			Pattern a=Pattern.compile("\\d{2}\\D{2}\\d{2}\\D{4}");
+			 Matcher matcher = a.matcher(carNo);
+			sc.close();
+			if(matcher.matches())
+			{System.out.println(obj.getlastdigits(carNo));
+			}
+		
+		 int a1=obj.getlastdigits();
+		 System.out.println("Result after addition of last 4 digits of number: "+a1);
+		 if(a1%3==0) {
+			 System.out.println("lucky number");
+		 }
+		 else
+		 {
+			 System.out.println("not lucky number");
+		 }
+	 }
+	
+}

@@ -1,0 +1,55 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration page</title>
+</head>
+<body>
+<center>
+    <h2>REGISTER</h2>
+</center>
+<center>
+<form>
+        <table>
+            <tr>
+                <td>Name<font color="white">Email</font>:
+                </td>
+                <td><input type="text" placeholder="Enter Name" name="Name"></td>
+            </tr>
+            <tr>
+                <td>Email<font color="white">Email</font>:
+                </td>
+                <td><input type="text" placeholder="enter Email ID" name="email"></td>
+            </tr>
+            <tr>
+                <td>DOB<font color="white">DOB</font>:
+                </td>
+                <td><input type="text" placeholder="Enter DOB" name="DOB"></td>
+            </tr>
+            <tr>
+                <td>Gender<font color="white">Gender</font>:
+                </td>
+                <td><input type="text" placeholder="Enter Geneder" name="gender"></td>
+            </tr>
+            <tr>
+                <td>Mobile number<font color="white">Mobile Number</font>:
+                </td>
+                <td><input type="text" placeholder="Enter mobile number" name="mb"></td>
+            </tr>
+            <tr>
+                <td>Password<font color="white">Password</font>:
+                </td>
+                <td><input type="password" placeholder="Please enter Password"
+                    name="password"></td>
+            </tr>
+        </table></form>
+        <p>
+            <input type="submit" value="Submit">
+        </p>
+        <br>
+</center>
+
+</body>
+</html>

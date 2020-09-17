@@ -1,0 +1,3 @@
+module CarNum {
+	requires junit;
+}

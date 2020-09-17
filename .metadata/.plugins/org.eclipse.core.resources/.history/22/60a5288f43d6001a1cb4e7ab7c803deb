@@ -1,0 +1,18 @@
+package Luckynum;
+
+public class Luckynumber {
+
+	 public static void main(String[] args) {
+		 LuckyCar obj=new LuckyCar();
+		 int a=obj.getlastdigits();
+		 System.out.println("Result after addition of last 4 digits of number: "+a);
+		 if(a%3==0) {
+			 System.out.println("lucky number");
+		 }
+		 else
+		 {
+			 System.out.println("not lucky number");
+		 }
+	 }
+	
+}

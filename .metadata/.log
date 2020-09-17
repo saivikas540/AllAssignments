@@ -1,0 +1,94 @@
+!SESSION 2020-09-01 20:44:55.488 -----------------------------------------------
+eclipse.buildId=4.16.0.I20200604-0540
+java.version=13.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+This is a continuation of log file C:\Users\Sai Vikas\eclipse-workspace\.metadata\.bak_0.log
+Created Time: 2020-09-01 20:45:40.148
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-01 20:45:40.148
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-01 20:45:40.150
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-01 20:45:40.151
+!MESSAGE buffering callback sts4.classpath.abmDorTI jobProject false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-01 20:45:40.152
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-01 20:45:40.166
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-01 20:45:40.176
+!MESSAGE buffering callback sts4.classpath.abmDorTI keepnote-step1-boilerplate false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-01 20:45:40.177
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-01 20:45:40.183
+!MESSAGE classpath=11 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-01 20:45:40.184
+!MESSAGE buffering callback sts4.classpath.abmDorTI projects false 11
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-01 20:45:40.186
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-01 20:45:40.271
+!MESSAGE classpath=90 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-01 20:45:40.339
+!MESSAGE buffering callback sts4.classpath.abmDorTI ss-backend false 90
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-01 20:45:40.340
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-01 20:45:40.342
+!MESSAGE classpath=3 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-01 20:45:40.343
+!MESSAGE buffering callback sts4.classpath.abmDorTI ss-frontend false 3
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-01 20:45:40.344
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-01 20:45:40.469
+!MESSAGE classpath=65 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-01 20:45:40.530
+!MESSAGE buffering callback sts4.classpath.abmDorTI studen false 65
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-01 20:45:40.532
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-01 20:45:40.540
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-01 20:45:40.545
+!MESSAGE buffering callback sts4.classpath.abmDorTI student false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-01 20:45:40.545
+!MESSAGE executing callback sts4.classpath.abmDorTI 37 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-01 20:45:40.928
+!MESSAGE executing callback sts4.classpath.abmDorTI SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-01 20:47:41.713
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.abmDorTI
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-01 20:47:41.715
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.abmDorTI
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-01 20:47:41.716
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-01 20:47:41.717
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.abmDorTI => OK
+
+!ENTRY org.eclipse.ui 2 2 2020-09-01 20:47:45.733
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)

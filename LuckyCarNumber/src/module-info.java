@@ -1,0 +1,3 @@
+module LuckyCarNumber {
+	requires junit;
+}

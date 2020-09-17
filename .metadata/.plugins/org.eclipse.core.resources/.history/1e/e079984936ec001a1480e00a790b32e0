@@ -1,0 +1,17 @@
+package com.stackroute.service;
+
+import java.util.List;
+
+import com.stackroute.model.registration;
+
+public class LoginService {
+	private List<registration> regData;
+	public void newRegistration(registration reg) {
+		regData.add(reg);
+	}
+
+public List<registration> getAll(){
+	return regData;
+	
+}
+}

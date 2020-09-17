@@ -1,0 +1,26 @@
+package Luckynum;
+
+import java.util.Scanner;
+
+public class LuckyCar {
+private String carNo;
+public int getlastdigits() {
+	Scanner sc=new Scanner(System.in);
+	carNo=sc.nextLine();
+	String lastFourDigits;
+	if (carNo.length() > 4) 
+	{
+	    lastFourDigits = carNo.substring(carNo.length() - 4);
+	} 
+	else
+	{
+	    lastFourDigits = carNo;
+	}
+	int last=Integer.parseInt(lastFourDigits);
+	return last;
+}
+	 public static void main(String[] args) {
+		 LuckyCar obj=new LuckyCar();
+		System.out.println(obj.getlastdigits());
+	}
+}
